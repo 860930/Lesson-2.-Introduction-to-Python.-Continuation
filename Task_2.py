@@ -3,7 +3,7 @@
 
 print('Введите число')
 list_1 = []
-l = int(input())
-for k in range(1,l+1):
+l_num = int(input())
+for k in range(1,l_num+1):
     list_1.append(3*k+1)
     print(list_1)
